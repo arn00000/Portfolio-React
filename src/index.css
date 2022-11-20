@@ -1,13 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Urbanist", sans-serif;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-link {
+  text-shadow: #5eead4 5px 0px 20px;
 }
+
+@media (max-width: 1000px) {
+  #icon {
+    text-shadow: #5eead4 15px 15px 10px;
+  }
+}
+
+#iconDiv:hover #icon {
+  text-shadow: #5eead4 15px 15px 10px;
+  /* transition-duration: 1000ms; */
+  transition: 1s;
+  transition-timing-function: ease-out;
+}
+
+#icon {
+  transition: 3s;
+  transition-timing-function: ease-in-out;
+}
+
+#projectText {
+  font-family: "Love Ya Like A Sister", cursive;
+}
+
+#welcome {
+  animation: hexcolors 10s infinite alternate;
+}
+
+@keyframes hexcolors {
+  0% {
+    color: #fe5e41;
+  }
+  20% {
+    color: #646e68;
+  }
+  40% {
+    color: #ffd100;
+  }
+  60% {
+    color: #0075f2;
+  }
+  80% {
+    color: #c7a27c;
+  }
+  100% {
+    color: #7bf1a8;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* .hobby-text {
+  bottom: 10%;
+  margin-left: 100%;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hobby-img:hover .grayscale {
+  filter: grayscale(0);
+  scale: 1.25;
+  transition: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+.hobby-img:hover .hobby-text {
+  margin-left: 0;
+  transition: 1s;
+  transition-timing-function: ease-in-out;
+} */
+
+/* @keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+    bottom: 0;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+    bottom: 20%;
+  }
+} */
