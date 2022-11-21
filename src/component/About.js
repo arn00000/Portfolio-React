@@ -13,32 +13,27 @@ export const About = () => {
           >
             Ooi Caaron
           </h1>
-          <h1 className="uppercase font-bold text-3xl text-teal-500">
+          <h1 className="uppercase font-bold text-base lg:text-3xl text-teal-500 mb-5">
             Software Developer
           </h1>
+          <div className="space-y-2">
+            <h1 className="text-xl"> 1 | JULY | 1999</h1>
+            <h1 className="text-xl">arn_0000@hotmail.com</h1>
+            <h1 className="text-xl">George Town, Penang</h1>
+          </div>
           <br />
         </div>
         <div className="lg:border-l border-black grid content-center">
-          {" "}
           <div className="lg:ml-14 w-full">
-            <div>
-              <h1 className="text-2xl font-bold">About</h1>
-              <h1 className="text-lg"> 1 | JULY | 1999</h1>
-              <h1 className="text-lg">arn_0000@hotmail.com</h1>
-              <h1 className="text-lg">George Town, Penang</h1>
-            </div>
-
-            <br />
-            <h1 className="text-2xl font-bold">Short Introduce</h1>
+            <h1 className="text-2xl font-bold mb-3">Short Introduction</h1>
             {!click ? (
-              <p className="lg:pr-14 text-lg ">
+              <p className="lg:pr-14 text-lg tracking-widest">
                 I am 23 years old and my biological name is Ooi Caaron. I
                 attended primary and secondary education in penang. While
-                waiting for my final high school result, I took up Martial arts
-                known as Boxing as a Amateur figthers.
+                waiting for my final high school result, .....
               </p>
             ) : (
-              <p className="lg:pr-14 text-lg ">
+              <p className="lg:pr-14 text-lg tracking-widest">
                 I am 23 years old and my biological name is Ooi Caaron. I
                 attended primary and secondary education in penang. While
                 waiting for my final high school result, I took up Martial arts
@@ -58,7 +53,7 @@ export const About = () => {
                 className="text-teal-500 flex items-center font-bold hover:text-teal-700"
               >
                 Read more{" "}
-                <span class="material-symbols-outlined">expand_more</span>
+                <span className="material-symbols-outlined">expand_more</span>
               </button>
             ) : (
               <button
@@ -66,7 +61,7 @@ export const About = () => {
                 className="text-teal-500 flex items-center font-bold hover:text-teal-700"
               >
                 Show less{" "}
-                <span class="material-symbols-outlined">expand_less</span>
+                <span className="material-symbols-outlined">expand_less</span>
               </button>
             )}
             <br />
@@ -74,7 +69,7 @@ export const About = () => {
               <a
                 href={resume}
                 download
-                className="px-3 py-2 border border-black hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] hover:bg-white hover:border-white rounded-lg"
+                className="px-3 py-2 border border-black shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] hover:bg-white hover:border-white rounded-lg"
               >
                 Download Resume
               </a>
@@ -104,12 +99,14 @@ export const About = () => {
             </div>
           </div>
         </div>
-        <a
-          href="mailto:ars_24@outlook.com?subject='We Looking For Software Engineer'&body='Dear Mr Caaron'"
-          className="hidden lg:block w-20 h-20 rounded-full bg-black text-white absolute lg:top-[40%] lg:left-[45.5%] xl:top-[40%] xl:left-[46.2%] 2xl:top-[40%] 2xl:left-[46.8%] shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] hover:bg-white hover:text-black text-center pt-6"
-        >
-          Hire Me
-        </a>
+        <div className="hidden lg:grid absolute lg:top-[40%] lg:left-[45.5%] xl:top-[40%] xl:left-[46.2%] 2xl:top-[40%] 2xl:left-[46.8%] w-20 h-20 rounded-full bg-black text-white flex justify-center items-center hover:bg-white hover:text-black shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)]">
+          <a
+            href="mailto:ars_24@outlook.com?subject='We Are Looking For Software Developer'&body='Dear Mr Caaron'"
+            className=""
+          >
+            Hire Me
+          </a>
+        </div>
       </div>
     </>
   );

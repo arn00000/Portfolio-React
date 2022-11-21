@@ -24,7 +24,7 @@ function App() {
           </Routes>
           <BottomNav />
         </div>
-        <div className="lg:w-1/5 hidden text-lg 2xl:text-2xl lg:grid fixed right-0 h-screen content-evenly bg-black text-white">
+        <div className="lg:w-1/5 hidden text-lg 2xl:text-2xl lg:grid fixed right-0 h-screen content-evenly bg-black text-white animate__animated animate__fadeInRight">
           <Sidebar />
         </div>
       </div>

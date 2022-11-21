@@ -1,7 +1,7 @@
 export const Home = () => {
   return (
     <>
-      <div className="lg:h-[100vh] grid grid-cols-1 content-center text-center mt-32 space-y-5 md:mt-52 lg:mt-0 md:space-y-10 lg:space-y-2 2xl:space-y-5 p-2">
+      <div className="lg:h-[100vh] grid grid-cols-1 content-center text-center mt-24 space-y-5 md:mt-52 lg:mt-0 md:space-y-10 lg:space-y-2 2xl:space-y-5 p-2">
         <div className="animate-pulse flex space-x-4">
           <div className="space-y-6">
             <div className="h-2 w-20 md:w-56 bg-black rounded"></div>
@@ -13,7 +13,7 @@ export const Home = () => {
         </div>
         <h1
           id="homeText"
-          className="uppercase text-5xl md:text-7xl 2xl:text-8xl animate__animated animate__jackInTheBox"
+          className="uppercase text-5xl md:text-7xl 2xl:text-8xl animate__animated animate__zoomIn"
         >
           <span id="welcome" className="underline">
             Welcome

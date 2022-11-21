@@ -13,18 +13,18 @@ export const Skill = () => {
   const [click10, setClick10] = useState(false);
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 text-center p-2 gap-5 animate__animated animate__zoomIn text-9xl mt-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 text-center p-5 gap-10 animate__animated animate__zoomIn text-9xl mt-16">
         {click ? (
           <div
             onClick={() => setClick(false)}
             id="iconText"
-            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl p-2"
+            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl p-2"
           >
-            <h1 className="text-base animate__animated animate__fadeInDown">
-              The HyperText Markup Language or HTML is the standard markup
-              language for documents designed to be displayed in a web browser.
+            <h1 className="text-lg animate__animated animate__fadeIn">
+              The HyperText Mark Language or HTML is the standard mark language
+              for documents designed to be displayed in a web browser.
             </h1>
-            <h1 className="text-3xl underline animate__animated animate__fadeInUp">
+            <h1 className="text-3xl underline animate__animated animate__fadeIn">
               HTML
             </h1>
           </div>
@@ -32,7 +32,7 @@ export const Skill = () => {
           <div
             onClick={() => setClick(true)}
             id="iconDiv"
-            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl"
+            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl"
           >
             <h1 id="icon">
               <i className="devicon-html5-plain"></i>
@@ -43,14 +43,14 @@ export const Skill = () => {
         {click2 ? (
           <div
             onClick={() => setClick2(false)}
-            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl p-2"
+            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl p-2"
           >
-            <h1 className="text-base animate__animated animate__fadeInDown">
+            <h1 className="text-lg animate__animated animate__fadeIn">
               Cascading Style Sheets is a style sheet language used for
-              describing the presentation of a document written in a markup
+              describing the presentation of a document written in a mark
               language such as HTML or XML.
             </h1>
-            <h1 className="text-3xl underline animate__animated animate__fadeInUp">
+            <h1 className="text-3xl underline animate__animated animate__fadeIn">
               CSS
             </h1>
           </div>
@@ -58,7 +58,7 @@ export const Skill = () => {
           <div
             onClick={() => setClick2(true)}
             id="iconDiv"
-            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl"
+            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl"
           >
             <h1 id="icon">
               <i className="devicon-css3-plain"></i>
@@ -69,14 +69,14 @@ export const Skill = () => {
         {click3 ? (
           <div
             onClick={() => setClick3(false)}
-            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl p-2"
+            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl p-2"
           >
-            <h1 className="text-base animate__animated animate__fadeInDown">
+            <h1 className="text-lg animate__animated animate__fadeIn">
               JavaScript, often abbreviated as JS, is a programming language
               that is one of the core technologies of the World Wide Web,
               alongside HTML and CSS.
             </h1>
-            <h1 className="text-3xl underline animate__animated animate__fadeInUp">
+            <h1 className="text-3xl underline animate__animated animate__fadeIn">
               JavaScript
             </h1>
           </div>
@@ -84,7 +84,7 @@ export const Skill = () => {
           <div
             onClick={() => setClick3(true)}
             id="iconDiv"
-            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl"
+            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl"
           >
             <h1 id="icon">
               <i className="devicon-javascript-plain"></i>
@@ -95,13 +95,13 @@ export const Skill = () => {
         {click4 ? (
           <div
             onClick={() => setClick4(false)}
-            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl p-2"
+            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl p-2"
           >
-            <h1 className="text-base animate__animated animate__fadeInDown">
+            <h1 className="text-lg animate__animated animate__fadeIn">
               PHP is a general-purpose scripting language geared toward web
               development.
             </h1>
-            <h1 className="text-3xl underline animate__animated animate__fadeInUp">
+            <h1 className="text-3xl underline animate__animated animate__fadeIn">
               PHP
             </h1>
           </div>
@@ -109,7 +109,7 @@ export const Skill = () => {
           <div
             onClick={() => setClick4(true)}
             id="iconDiv"
-            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl"
+            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl"
           >
             <h1 id="icon">
               <i className="devicon-php-plain"></i>
@@ -120,14 +120,14 @@ export const Skill = () => {
         {click5 ? (
           <div
             onClick={() => setClick5(false)}
-            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl p-2 overflow-y-auto"
+            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl p-2 overflow-y-auto"
           >
-            <h1 className="text-base animate__animated animate__fadeInDown">
+            <h1 className="text-lg animate__animated animate__fadeIn">
               React is a free and open-source front-end JavaScript library for
               building user interfaces based on UI components. It is maintained
               by Meta and a community of individual developers and companies.
             </h1>
-            <h1 className="text-3xl underline animate__animated animate__fadeInUp">
+            <h1 className="text-3xl underline animate__animated animate__fadeIn">
               REACT
             </h1>
           </div>
@@ -135,7 +135,7 @@ export const Skill = () => {
           <div
             onClick={() => setClick5(true)}
             id="iconDiv"
-            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl"
+            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl"
           >
             <h1 id="icon">
               <i className="devicon-react-original"></i>
@@ -146,14 +146,14 @@ export const Skill = () => {
         {click6 ? (
           <div
             onClick={() => setClick6(false)}
-            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl p-2"
+            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl p-2"
           >
-            <h1 className="text-base animate__animated animate__fadeInDown">
+            <h1 className="text-lg animate__animated animate__fadeIn">
               Next.js is an open-source web development framework created by
               Vercel enabling React-based web applications with server-side
               rendering and generating static websites.
             </h1>
-            <h1 className="text-3xl underline animate__animated animate__fadeInUp">
+            <h1 className="text-3xl underline animate__animated animate__fadeIn">
               NEXT.<span className="text-2xl">JS</span>
             </h1>
           </div>
@@ -161,7 +161,7 @@ export const Skill = () => {
           <div
             onClick={() => setClick6(true)}
             id="iconDiv"
-            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl"
+            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl"
           >
             <h1 id="icon">
               <i className="devicon-nextjs-original"></i>
@@ -172,13 +172,13 @@ export const Skill = () => {
         {click7 ? (
           <div
             onClick={() => setClick7(false)}
-            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl p-2"
+            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl p-2"
           >
-            <h1 className="text-base animate__animated animate__fadeInDown">
+            <h1 className="text-lg animate__animated animate__fadeIn">
               Kotlin is a cross-platform, statically typed, general-purpose
               programming language with type inference.
             </h1>
-            <h1 className="text-3xl underline animate__animated animate__fadeInUp">
+            <h1 className="text-3xl underline animate__animated animate__fadeIn">
               KOTLIN
             </h1>
           </div>
@@ -186,7 +186,7 @@ export const Skill = () => {
           <div
             onClick={() => setClick7(true)}
             id="iconDiv"
-            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl"
+            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl"
           >
             <h1 id="icon">
               <i className="devicon-kotlin-plain"></i>
@@ -197,12 +197,12 @@ export const Skill = () => {
         {click8 ? (
           <div
             onClick={() => setClick8(false)}
-            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl p-2"
+            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl p-2"
           >
-            <h1 className="text-base animate__animated animate__fadeInDown">
+            <h1 className="text-lg animate__animated animate__fadeIn">
               Tailwind CSS is an open source CSS framework.
             </h1>
-            <h1 className="text-3xl underline animate__animated animate__fadeInUp">
+            <h1 className="text-3xl underline animate__animated animate__fadeIn">
               TAILWIND CSS
             </h1>
           </div>
@@ -210,7 +210,7 @@ export const Skill = () => {
           <div
             onClick={() => setClick8(true)}
             id="iconDiv"
-            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl"
+            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl"
           >
             <h1 id="icon">
               <i className="devicon-tailwindcss-plain"></i>
@@ -221,12 +221,12 @@ export const Skill = () => {
         {click9 ? (
           <div
             onClick={() => setClick9(false)}
-            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl p-2"
+            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl p-2"
           >
-            <h1 className="text-base animate__animated animate__fadeInDown">
+            <h1 className="text-lg animate__animated animate__fadeIn">
               Bootstrap is a free and open-source CSS framework.
             </h1>
-            <h1 className="text-3xl underline animate__animated animate__fadeInUp">
+            <h1 className="text-3xl underline animate__animated animate__fadeIn">
               BOOTSTRAP
             </h1>
           </div>
@@ -234,7 +234,7 @@ export const Skill = () => {
           <div
             onClick={() => setClick9(true)}
             id="iconDiv"
-            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl"
+            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl"
           >
             <h1 id="icon">
               <i className="devicon-bootstrap-plain"></i>
@@ -244,13 +244,13 @@ export const Skill = () => {
         {click10 ? (
           <div
             onClick={() => setClick10(false)}
-            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl p-2"
+            className="grid content-between bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl p-2"
           >
-            <h1 className="text-base animate__animated animate__fadeInDown">
+            <h1 className="text-lg animate__animated animate__fadeIn">
               Node.js is an open-source server environment. Node.js is a
               back-end JavaScript runtime environment.
             </h1>
-            <h1 className="text-3xl underline animate__animated animate__fadeInUp">
+            <h1 className="text-3xl underline animate__animated animate__fadeIn">
               NODE.<span className="text-2xl">js</span>
             </h1>
           </div>
@@ -258,7 +258,7 @@ export const Skill = () => {
           <div
             onClick={() => setClick10(true)}
             id="iconDiv"
-            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-700 cursor-pointer h-56 rounded-2xl"
+            className="grid content-center bg-zinc-200 hover:bg-white hover:shadow-[0px_0px_20px_2px_rgba(0,0,0,0.3)] transition duration-200 cursor-pointer h-56 rounded-2xl"
           >
             <h1 id="icon">
               <i className="devicon-nodejs-plain"></i>
